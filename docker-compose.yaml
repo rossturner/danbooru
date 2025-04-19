@@ -114,7 +114,7 @@ x-base-template: &base-template
     DATABASE_URL: postgresql://danbooru@postgres/danbooru?pool=100
     DANBOORU_REDIS_URL: redis://redis:6379
     DANBOORU_IQDB_URL: http://iqdb:5588
-    DANBOORU_AUTOTAGGER_URL: http://autotagger:5000
+    DANBOORU_AUTOTAGGER_URL: ""
     DANBOORU_IMAGE_STORAGE_PATH: /images
 
   tmpfs:
