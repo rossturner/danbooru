@@ -66,7 +66,7 @@ class Post < ApplicationRecord
   before_save :added_tags_are_valid
   before_save :removed_tags_are_valid
   before_save :has_artist_tag
-  before_save :has_copyright_tag
+  # before_save :has_copyright_tag
   before_save :has_enough_tags
   before_save :update_tag_post_counts
   before_save :update_tag_category_counts
