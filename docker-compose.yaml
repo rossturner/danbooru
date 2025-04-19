@@ -132,6 +132,9 @@ x-base-template: &base-template
 services:
   danbooru:
     <<: *base-template
+    build:
+      context: .
+      dockerfile: Dockerfile
     depends_on:
       postgres:
         condition: service_healthy
