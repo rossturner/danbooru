@@ -204,8 +204,8 @@ services:
     volumes:
       - "danbooru-images:/images"
 
-#  autotagger:
-#    image: ghcr.io/danbooru/autotagger:latest
+  autotagger:
+    image: ghcr.io/danbooru/autotagger:latest
 
 configs:
   danbooru_local_config:
